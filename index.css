@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.meal-details {
+    border: 1px solid black;
+    max-width: 50%;
+    height: 500px;
+}
+
+.customer-charges {
+    border: 1px solid black;
+    max-width: 50%;
+    height: 250px;
+}
+
+.earnings {
+    border: 1px solid black;
+    max-width: 50%;
+    height: 250px;
+}
+
+.meal-details-input {
+    display: flex;
+    flex-direction: column;
+}
