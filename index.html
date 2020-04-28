@@ -13,31 +13,39 @@
     </header>
     <main>
         <div class="container">
-        <div class="meal-details">
-            <h2>Enter the Meal Details</h2>
-            <form class="meal-details-input">
-                <label for="meal-price">Base Meal Price: $</label>
-                <input type="number" name="meal-price" class="meal-price-entry" placeholder="0">
-                <label for="tax">Tax Rate: $</label>
-                <input type="number" name="tax" class="tax-rate-entry" placeholder="0">
-                <label for="tip-percent">Tip Percentage: $</label>
-                <input type="number" name="tip-percent" class="tip-percent-entry" placeholder="0">
-                <button type="submit" class="submit-button">Submit</button>
-                <button type="reset" class="cancel-button">Cancel</button>
-            </form>
-        </div>
-        <section class="customer-charges">
-            <h2>Customer Charges</h2>
-            <span>Subtotal 0.00</span>
-            <span>Customer Tip 0.00</span>
-            <span>Customer Total 0.00</span>
-        </section>
-        <section class="earnings">
-            <h2>My Earnings Info</h2>
-            <span>Tip Total: 0.00</span>
-            <span>Meal Count: 0</span>
-            <span>Average Tip Per Meal: 0.00</span>
-        </section>
+            <div class="meal-details">
+                <h2>Enter the Meal Details</h2>
+                <form class="meal-details-input">
+                    <div class="price-input">
+                        <label for="meal-price">Base Meal Price: $</label>
+                        <input type="number" name="meal-price" class="meal-price-entry" placeholder="0">
+                    </div>
+                    <div class="price-input">
+                        <label for="tax">Tax Rate: $</label>
+                        <input type="number" name="tax" class="tax-rate-entry" placeholder="0">
+                    </div>
+                    <div class="price-input">
+                        <label for="tip-percent">Tip Percentage: $</label>
+                        <input type="number" name="tip-percent" class="tip-percent-entry" placeholder="0">
+                    </div>
+                    <button type="submit" class="form-button">Submit</button>
+                    <button type="reset" class="form-button">Cancel</button>
+                </form>
+            </div>
+            <div>
+            <section class="customer-charges">
+                <h2>Customer Charges</h2>
+                <span>Subtotal 0.00</span>
+                <span>Customer Tip 0.00</span>
+                <span>Customer Total 0.00</span>
+            </section>
+            <section class="earnings">
+                <h2>My Earnings Info</h2>
+                <span>Tip Total: 0.00</span>
+                <span>Meal Count: 0</span>
+                <span>Average Tip Per Meal: 0.00</span>
+            </section>
+            </div>
         </div>
         <button type="reset" class="reset-button">Reset</button>
     </main>
